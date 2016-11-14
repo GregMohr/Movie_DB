@@ -5,8 +5,23 @@
     <title>Movie DB</title>
   </head>
   <body>
+    <h1>Welcome to Movie DB</h1>
+    <h3>Search a movie to see its cast or search an Actor to see what movies they have been in.</h3>
     <form action="/search" method="post">
-      <p>Search: <input type="text" name="search" value=""></p>
+
+      <p>Search Actor: <input type="text" name="search" value=""></p>
+      <p>Search Movie: <input type="text" name="search" value=""></p>
     </form>
+    <h3>Can't find a movie or an actor? Add them below. </h3>
+    <h6>Reminder: Please be accurate and kind</h6>
+    <form  action="index.html" method="post">
+      Add Actor:
+      <input type="text" name="first_name">
+      <input type="text" name="last_name">
+      <input type="text" name="birthdate">
+      <input type="submit" name="submit" value="submit">
+    </form>
+      Add Movie:
+      <input type="text" name="name" value="">
   </body>
 </html>
